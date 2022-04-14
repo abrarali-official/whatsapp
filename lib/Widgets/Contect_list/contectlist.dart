@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp/Model/chatitemmodel.dart';
-import 'package:whatsapp/Widgets/Chat_helper.dart';
+import 'package:whatsappclone/Model/chatitemmodel.dart';
+import 'package:whatsappclone/Widgets/Chat_helper.dart';
 
 class ContactsList extends StatelessWidget {
   const ContactsList({Key? key}) : super(key: key);

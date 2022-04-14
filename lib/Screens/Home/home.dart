@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp/Widgets/Contect_list/contectlist.dart';
+import 'package:whatsappclone/Widgets/Contect_list/contectlist.dart';
 
 // ignore: camel_case_types
 class Home_screen extends StatelessWidget {
