@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 
-import 'package:whatsapp/Screens/Home/home.dart';
+import 'package:whatsapp/Screens/Home_screen/home.dart';
+
+
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -18,7 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Timer(
         const Duration(seconds: 5),
         () => Navigator.pushReplacement(
-            context, MaterialPageRoute(builder: (context) => const Home_screen())));
+            context, MaterialPageRoute(builder: (context) => const Home_Screen())));
   }
 
   @override

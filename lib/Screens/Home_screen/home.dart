@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp/Widgets/Contect_list/contectlist.dart';
 
 // ignore: camel_case_types
-class Home_screen extends StatelessWidget {
-  const Home_screen({Key? key}) : super(key: key);
+class Home_Screen extends StatelessWidget {
+  const Home_Screen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +10,7 @@ class Home_screen extends StatelessWidget {
       length: 4,
       child: Scaffold(
         appBar: AppBar(
-          elevation: 0,
+          elevation: 5,
           backgroundColor: const Color.fromARGB(255, 23, 31, 22),
           centerTitle: false,
           title: const Text(
@@ -32,35 +31,41 @@ class Home_screen extends StatelessWidget {
               onPressed: () {},
             ),
           ],
-          bottom: const TabBar(
+          bottom: TabBar(
             indicatorSize: TabBarIndicatorSize.tab,
             indicatorColor: Colors.green,
             indicatorWeight: 4,
             labelColor: Colors.green,
             unselectedLabelColor: Colors.grey,
-            labelStyle: TextStyle(
+            labelStyle: const TextStyle(
               fontWeight: FontWeight.bold,
             ),
             tabs: [
-              Tab(
+              const Tab(
                 height: 30,
                 icon: Icon(Icons.camera_alt_rounded),
               ),
               Tab(
-                child: Text("CHATS"),
+                child: InkWell(
+                  child: const Text("CHATS"),
+                  onTap: (){},
+                ),
               ),
               Tab(
-                  child: Text(
-                "STATUS",
-              )),
+                child: InkWell(
+                  child: const Text("STATUS"),
+                  onTap: () {},
+                ),
+              ),
               Tab(
-                  child: Text(
-                "CALLS",
-              )),
+                child: InkWell(
+                  child: const Text("CALLS"),
+                  onTap: () {},
+                ),
+              ),
             ],
           ),
         ),
-        body: const ContactsList(),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
           backgroundColor: Colors.green,
