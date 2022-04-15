@@ -56,7 +56,15 @@ packages:
       name: collection
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
     version: "1.15.0"
+=======
+<<<<<<< HEAD
+    version: "1.15.0"
+=======
+    version: "1.16.0"
+>>>>>>> a1f9677f4aaec40b37825a61e3b021b0d63a42f1
+>>>>>>> c397013052d101ea48a6b69d39173de0a966fc22
   crypto:
     dependency: transitive
     description:
@@ -150,7 +158,15 @@ packages:
       name: path
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
     version: "1.8.0"
+=======
+<<<<<<< HEAD
+    version: "1.8.0"
+=======
+    version: "1.8.1"
+>>>>>>> a1f9677f4aaec40b37825a61e3b021b0d63a42f1
+>>>>>>> c397013052d101ea48a6b69d39173de0a966fc22
   petitparser:
     dependency: transitive
     description:
@@ -218,7 +234,15 @@ packages:
       name: vector_math
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
     version: "2.1.1"
+=======
+<<<<<<< HEAD
+    version: "2.1.1"
+=======
+    version: "2.1.2"
+>>>>>>> a1f9677f4aaec40b37825a61e3b021b0d63a42f1
+>>>>>>> c397013052d101ea48a6b69d39173de0a966fc22
   xml:
     dependency: transitive
     description:
